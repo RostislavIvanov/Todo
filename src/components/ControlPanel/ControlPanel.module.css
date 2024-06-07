@@ -1,0 +1,18 @@
+.panel {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amount {
+    color: #9a9a9a;
+}
+
+@media (max-width: 576px) {
+    .panel {
+        height: 100px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

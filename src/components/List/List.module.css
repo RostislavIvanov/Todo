@@ -1,0 +1,24 @@
+.list {
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 6px 8px 0 rgba(34, 60, 80, 0.2);
+    margin-bottom: 80px;
+}
+
+@media (max-width: 1200px) {
+    .list {
+        width: 700px;
+    }
+}
+
+@media (max-width: 992px) {
+    .list {
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .list {
+        width: 100%;
+    }
+}
