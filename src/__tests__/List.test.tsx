@@ -3,6 +3,7 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import { List } from '~/components/List/List.tsx';
 import { todoData } from '~/staticData/staticData.ts';
 
+// Так вышло, что ни на одном проекте тестов я не писал, только скриншотные были в одном месте, поэтому тут явно не самый качественный код:)
 describe('List Component', () => {
     test('renders List component', () => {
         render(<List />);
